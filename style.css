@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.heading-1 {
+  @apply text-6xl font-bold leading-[140%] tracking-tighter;
+}
+.heading-2 {
+  @apply text-5xl font-bold;
+}
+.paragraph {
+  @apply text-lg leading-[200%];
+}
